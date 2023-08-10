@@ -14,14 +14,14 @@ Headers: X-API-Key
 POST request body (as JSON): key
 GET parameters: key
 Please ensure that the provided API Key is present in the config.py file for the request to be authenticated, for example
-´´´
+```
 PRIVATE_API_KEYS = {
     'username1': 'your-api-key-1',
     'username2': 'your-api-key-2'
 }
-´´´
+```
 For example
-``` http://127.0.0.1:5000/api/v1/preview?key=YOUR_KEY ```
+> http://127.0.0.1:5000/api/v1/preview?key=YOUR_KEY
 
 # How to use
 
